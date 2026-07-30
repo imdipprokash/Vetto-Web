@@ -22,7 +22,7 @@ Vetto helps pet owners track vet visits, vaccinations, medications, and weight �
 
 | Route | Description |
 |-------|-------------|
-| `/` | Home — hero, features, how it works, download CTA |
+| `/` | Home — hero, features, how it works, download CTA, Follow on LinkedIn added |
 | `/about` | About — our story, mission, values, contact |
 | `/privacy` | Privacy Policy |
 | `/terms` | Terms of Use |
