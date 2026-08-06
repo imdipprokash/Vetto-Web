@@ -14,18 +14,18 @@
 
 Vetto helps pet owners track vet visits, vaccinations, medications, and weight — all from one mobile app. This repository is the **marketing landing site** built with React, TypeScript, Vite, and Tailwind CSS.
 
-**Live app:** Available on Android via Google Play *(coming soon)*
+**Live app:** Available on Android via Google Play _(coming soon)_
 
 ---
 
 ## 📄 Pages
 
-| Route | Description |
-|-------|-------------|
-| `/` | Home — hero, features, how it works, download CTA, Follow on LinkedIn added |
-| `/about` | About — our story, mission, values, contact |
-| `/privacy` | Privacy Policy |
-| `/terms` | Terms of Use |
+| Route      | Description                                                                 |
+| ---------- | --------------------------------------------------------------------------- |
+| `/`        | Home — hero, features, how it works, download CTA, Follow on LinkedIn added |
+| `/about`   | About — our story, mission, values, contact                                 |
+| `/privacy` | Privacy Policy                                                              |
+| `/terms`   | Terms of Use                                                                |
 
 ---
 
@@ -117,11 +117,11 @@ This site is configured for **[Vercel](https://vercel.com)** out of the box.
 
 The `vercel.json` handles SPA routing so all routes (e.g. `/about`, `/privacy`) work correctly on direct access or page refresh.
 
-| Setting | Value |
-|---------|-------|
-| Framework | Vite |
-| Build command | `npm run build` |
-| Output directory | `dist` |
+| Setting          | Value           |
+| ---------------- | --------------- |
+| Framework        | Vite            |
+| Build command    | `npm run build` |
+| Output directory | `dist`          |
 
 ---
 
@@ -136,7 +136,7 @@ The `vercel.json` handles SPA routing so all routes (e.g. `/about`, `/privacy`) 
 
 ## 📬 Contact
 
-For questions or support: **[support@vetto.org](mailto:support@vetto.org)**
+For questions or support: **[support@vettocloud.com](mailto:support@vettocloud.com)**
 
 ---
 
