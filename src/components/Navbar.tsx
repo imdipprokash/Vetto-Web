@@ -45,7 +45,7 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="#"
+          href="https://play.google.com/store/apps/details?id=com.vettocloud"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex btn-secondary text-sm py-2 px-5 gap-2"
@@ -92,7 +92,7 @@ export default function Navbar() {
             ))}
           </ul>
           <a
-            href="#"
+            href="https://play.google.com/store/apps/details?id=com.vettocloud"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}

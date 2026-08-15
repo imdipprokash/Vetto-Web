@@ -164,7 +164,9 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                 <a
-                  href="#download"
+                  href="https://play.google.com/store/apps/details?id=com.vettocloud"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-secondary gap-2.5 py-3.5 px-7 text-base"
                 >
                   <PlayIcon />
@@ -292,7 +294,9 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                 <a
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=com.vettocloud"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-gray-900 font-semibold rounded-full px-6 py-3.5 text-sm transition-all duration-200 shadow-lg"
                 >
                   <PlayIcon />
