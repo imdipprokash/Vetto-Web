@@ -77,6 +77,15 @@ const values = [
   },
 ];
 
+const team = [
+  {
+    name: "Dipprokash Sardar",
+    role: "React Native & React Js Developer",
+    photo: "/team/dipprokash-sardar.jpg",
+    linkedin: "https://www.linkedin.com/in/dipprokash",
+  },
+];
+
 export default function About() {
   return (
     <div className="bg-white">
@@ -161,6 +170,59 @@ export default function About() {
                   {title}
                 </h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Team */}
+      <section className="py-24">
+        <div className="max-w-5xl mx-auto px-5 sm:px-8">
+          <div className="max-w-xl mb-14">
+            <span className="text-brand-600 text-xs font-semibold uppercase tracking-widest mb-4 block">
+              The people behind Vetto
+            </span>
+            <h2 className="font-serif text-4xl md:text-5xl text-gray-900 leading-tight">
+              Meet the team.
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            {team.map(({ name, role, photo, linkedin }) => (
+              <div
+                key={name}
+                className="bg-[#F7FAF7] rounded-3xl p-8 border border-gray-100 flex flex-col items-center text-center"
+              >
+                <img
+                  src={photo}
+                  alt={name}
+                  className="w-24 h-24 rounded-full object-cover mb-5 bg-brand-50"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).src =
+                      `https://ui-avatars.com/api/?name=${encodeURIComponent(
+                        name
+                      )}&background=E8F3E8&color=1F5F3F&size=200`;
+                  }}
+                />
+                <h3 className="font-semibold text-gray-900 text-base mb-1">
+                  {name}
+                </h3>
+                <p className="text-gray-500 text-sm mb-4">{role}</p>
+                <a
+                  href={linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-brand-600 text-sm font-medium hover:underline inline-flex items-center gap-1.5"
+                >
+                  <svg
+                    className="w-4 h-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 11.001-4.124 2.062 2.062 0 01-.001 4.124zM7.114 20.452H3.558V9h3.556v11.452z" />
+                  </svg>
+                  LinkedIn
+                </a>
               </div>
             ))}
           </div>
